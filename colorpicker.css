@@ -1,0 +1,73 @@
+body{
+    background-color: #232323;
+    margin: 0;
+    font-family: "Avenir";
+}
+
+.square {
+    width:30%;
+    background: purple;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+    /* border radius is responsible for round corner */
+    border-radius: 15%;
+    /* transition is not working on all web browser? need extra addition from the begginng.
+    did do it. need to  */
+    transition: background 0.6s;
+    
+}
+
+#container {
+    width: 600px;
+    margin:0 auto;
+}
+
+
+h1 {
+    color: white;
+    text-align: center;
+    line-height: 1.1;
+    padding: 20px 0;
+    background-color: steelblue;
+    margin: 0;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+#colorDisplay {
+    font-size: 200%;
+}
+
+#message {
+    display: inline-block;
+    width:20%;
+}
+
+#stripe {
+    height: 30px;
+    background-color: white;
+    text-align: center;
+}
+
+.selected {
+    color:white;
+    background-color: steelblue;
+}
+button {
+    border: none;
+    background-color: none;
+    height: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: steelblue;
+    font-size: inherit;
+    letter-spacing: 1px;
+    /* transition property is telling CSS how long to transition to what. 
+    need 2 arguments: what and how long in seconds*/
+    transition: all 0.5s;
+    outline: none;
+}
+button:hover {
+    color:white;
+    background-color: steelblue;
+}
